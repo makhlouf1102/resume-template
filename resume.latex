@@ -1,0 +1,116 @@
+\documentclass{article}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[a4paper, margin=0.5in]{geometry}
+\usepackage{hyperref}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=blue
+}
+
+\newcommand{\sectionline}{%
+	\vspace{-0.5cm}
+	\noindent\rule{\textwidth}{1pt}
+	\vspace{-0.5cm}
+}
+
+\setlength{\parskip}{0.2cm}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\noindent
+{\huge Jean Dupont} \\
+Ville Exemple, QC, Canada \\
+(000)-000-0000 \\
+\href{mailto:jean.dupont@example.com}{jean.dupont@example.com} \\
+\href{https://www.linkedin.com/in/jean-dupont/}{https://www.linkedin.com/in/jean-dupont/} \\
+Français, Anglais
+
+\section*{Formations}
+\sectionline
+
+\textbf{Baccalauréat en sciences informatiques} \hfill \textit{Depuis 2023} \\
+Université Exemple, Ville Exemple
+
+\textbf{Diplôme collégial en informatique} \hfill \textit{2021} \\
+Cégep Exemple, Ville Exemple \\
+Moyenne générale : 85\%
+
+\section*{Compétences particulières}
+\sectionline
+
+\textbf{Langages:} Java, Python, C++, JavaScript, HTML, CSS, Git \\
+\textbf{Frameworks:} React, Node.js, Django, Docker \\
+\textbf{Bases de données:} MySQL, PostgreSQL, MongoDB \\
+\textbf{Autres:} Linux, UML, Web Scraping
+
+\section*{Expériences professionnelles}
+\sectionline
+
+\textbf{Développeur web back-end} \hfill \textit{Été 2023} \\
+Entreprise Exemple, Ville Exemple
+\begin{itemize}
+	\item Développement et intégration d'API REST.
+	\item Gestion et optimisation de bases de données.
+	\item Collaboration avec l'équipe front-end.
+\end{itemize}
+
+\textbf{Stage développeur full stack} \hfill \textit{Hiver 2024}
+
+\section*{Implications}
+\sectionline
+
+\textbf{Club de robotique universitaire} \hfill \textit{2022 - 2023} \\
+\begin{itemize}
+	\item Conception de systèmes embarqués.
+	\item Organisation d'ateliers pour étudiants.
+\end{itemize}
+
+\section*{Prix}
+\sectionline
+
+Lauréat du Concours Innovation Tech 2023 \\
+Juin 2023
+
+\section*{Projets}
+\sectionline
+
+\textbf{Projet Alpha} \hfill \textit{2023} \\
+Application web de suivi de dépenses.
+\begin{itemize}
+	\item Conception et mise en place de l'architecture back-end.
+	\item Intégration d'API tierces.
+\end{itemize}
+
+\textbf{Projet Beta} \hfill \textit{2022} \\
+Plateforme de partage de fichiers.
+\begin{itemize}
+	\item Implémentation d'un système d'authentification.
+	\item Déploiement sur serveur cloud.
+\end{itemize}
+
+\section*{Autres expériences}
+\sectionline
+
+\textbf{Service à la clientèle} \hfill \textit{2019 - 2022} \\
+Entreprise Exemple, Ville Exemple
+\begin{itemize}
+	\item Interaction quotidienne avec les clients.
+	\item Résolution rapide des problèmes.
+\end{itemize}
+
+\section*{Activités et loisirs}
+\sectionline
+
+\textbf{Cyclisme} \hfill \textit{Depuis 2015} \\
+\begin{itemize}
+	\item Participation à des compétitions locales.
+	\item Organisation de sorties en groupe.
+\end{itemize}
+
+\end{document}
